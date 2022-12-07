@@ -1,0 +1,14 @@
+github.com/arshabbir/utils v0.0.0-20221204071311-a9de1b66cccc h1:wzKjv4ZkZCdxj5TfQe2gP6K5AAhpNqumBhqs5giW/6Y=
+github.com/arshabbir/utils v0.0.0-20221204071311-a9de1b66cccc/go.mod h1:7SDYJ9f8uMP5e6YGL2pNRmA5ETl7qN5lXfSVZaClfjw=
+github.com/arshabbir/utils v0.0.0-20221207044633-698d868fb8f7 h1:GHjpD5cjJJszHxR+OJbc3TvnFYjRBwQPczpO0Lo8Ho0=
+github.com/arshabbir/utils v0.0.0-20221207044633-698d868fb8f7/go.mod h1:7SDYJ9f8uMP5e6YGL2pNRmA5ETl7qN5lXfSVZaClfjw=
+github.com/arshabbir/utils v0.0.0-20221207045510-c42267dcb03b h1:5Dlso5AlQqQwXesUqcT2YnBd492LKlNXoRBI+nPf46E=
+github.com/arshabbir/utils v0.0.0-20221207045510-c42267dcb03b/go.mod h1:7SDYJ9f8uMP5e6YGL2pNRmA5ETl7qN5lXfSVZaClfjw=
+github.com/arshabbir/utils v0.0.0-20221207051119-5f7d02f5e424 h1:2q4UfEAyTNhcDztf+nz2MxuLnPzqoePIaoO/5lfwbF8=
+github.com/arshabbir/utils v0.0.0-20221207051119-5f7d02f5e424/go.mod h1:7SDYJ9f8uMP5e6YGL2pNRmA5ETl7qN5lXfSVZaClfjw=
+github.com/arshabbir/utils v0.0.0-20221207052000-6f3041540183 h1:7tC90VprtPOGrPNWBEkKRNCkLDR+zbDiGhvqoR2u5bY=
+github.com/arshabbir/utils v0.0.0-20221207052000-6f3041540183/go.mod h1:7SDYJ9f8uMP5e6YGL2pNRmA5ETl7qN5lXfSVZaClfjw=
+github.com/arshabbir/utils v0.0.0-20221207052335-26650b9df980 h1:JL5UpYSaLy6LcjcoUopJRU3BGPD8vij4VBlRW7aG56A=
+github.com/arshabbir/utils v0.0.0-20221207052335-26650b9df980/go.mod h1:7SDYJ9f8uMP5e6YGL2pNRmA5ETl7qN5lXfSVZaClfjw=
+github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
+github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
