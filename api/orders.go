@@ -28,11 +28,12 @@ func (s *server) handleOrder(w http.ResponseWriter, r *http.Request) {
 	}
 	s.l.Log(model.LogRequest{Timestamp: time.Now(), ServiceName: "orderservice", Message: fmt.Sprintf("%v", req)})
 
+	// To be continued : Perform http hit towards the inventor to check the product & respond accordingly
+
 	resp := &model.OrderResponse{StatusCode: http.StatusOK}
 	if err := json.NewEncoder(w).Encode(resp); err != nil {
 		s.l.Log(model.LogRequest{Timestamp: time.Now(), ServiceName: "orderservice", Message: "Error encoding the order response "})
 		return
 	}
 
-	// To be continued
 }

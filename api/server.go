@@ -5,14 +5,16 @@ import (
 	"net/http"
 
 	"github.com/arshabbir/utils/config"
+	"github.com/arshabbir/utils/httpclient"
 	"github.com/arshabbir/utils/logger"
 	"github.com/gorilla/mux"
 )
 
 type server struct {
-	m    *mux.Router
-	l    logger.Logger
-	conf *config.Config
+	m          *mux.Router
+	l          logger.Logger
+	conf       *config.Config
+	httpClient httpclient.HttpClient
 }
 
 type Server interface {
@@ -20,7 +22,7 @@ type Server interface {
 }
 
 func NewOrderServer(conf *config.Config, l logger.Logger) Server {
-	return &server{m: mux.NewRouter(), l: l, conf: conf}
+	return &server{m: mux.NewRouter(), l: l, conf: conf, httpClient: httpclient.NewHttpClient(conf, l)}
 }
 
 func (s *server) Start() error {
